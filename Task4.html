@@ -1,0 +1,97 @@
+<!-- Task-04 submitted by Aryan Thapliyal 21BCE2709 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+    <style>
+      .box {
+        width: 300px;
+        height: 250px;
+        border: 2px solid #000;
+        background-color: white;
+        padding: 20px;
+      }
+
+      table {
+        width: 100%;
+      }
+      label {
+        width: 100px;
+        display: inline-block;
+      }
+      .form-row {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p>Click to add these</p>
+      <form action="htpps://www.google.com" method="post">
+        <table>
+          <tr class="form-row">
+            <td><label for="fullname">Full Name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required
+                placeholder="Enter your full name"
+              />
+            </td>
+          </tr>
+          <tr class="form-row">
+            <td><label for="username">Username:</label></td>
+            <td>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                placeholder="Enter your username"
+              />
+            </td>
+          </tr>
+          <tr class="form-row">
+            <td><label for="password">Password:</label></td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr class="form-row">
+            <td><label for="repassword">Re-enter Password:</label></td>
+            <td>
+              <input
+                type="password"
+                id="repassword"
+                name="repassword"
+                required
+              />
+            </td>
+          </tr>
+          <tr class="form-row">
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" name="age" required /></td>
+          </tr>
+          <tr class="form-row">
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="Save" />
+      </form>
+    </div>
+    <a href="Task5.html" style="display: block">Click here for Task-5</a>
+    <a href="Task3.html" style="display: block">Go Back</a>
+    <a href="index.html" style="display: block">Home</a>
+  </body>
+</html>
